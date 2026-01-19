@@ -29,7 +29,10 @@ env\Scripts\activate
 3. Install dependencies
 pip install -r requirements.txt
 
-# Run the Backend Server
+## 🐳 Run with Docker 
+docker-compose up --build
+
+# Run the Backend Server Locally
 uvicorn main:app --reload
 
 # Frontend Setup
